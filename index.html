@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Bouncy Share Button</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Background elements -->
+  <div class="background-element"></div>
+  <div class="background-element"></div>
+  <div class="background-element"></div>
+
+  <div class="container">
+    <h1>CodeEater</h1>
+    
+    <div class="share-container" id="shareMenu">
+      <button class="share-btn" id="mainShareBtn">
+        <i class="fas fa-share-alt"></i>
+      </button>
+
+      <!-- Social Buttons -->
+      <button class="social-btn whatsapp" data-tooltip="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">WhatsApp</span>
+      </button>
+      <button class="social-btn facebook" data-tooltip="Facebook">
+        <i class="fab fa-facebook-f"></i>
+        <span class="tooltip">Facebook</span>
+      </button>
+      <button class="social-btn twitter" data-tooltip="Twitter">
+        <i class="fab fa-twitter"></i>
+        <span class="tooltip">Twitter</span>
+      </button>
+      <button class="social-btn instagram" data-tooltip="Instagram">
+        <i class="fab fa-instagram"></i>
+        <span class="tooltip">Instagram</span>
+      </button>
+      <button class="social-btn messenger" data-tooltip="Messenger">
+        <i class="fab fa-facebook-messenger"></i>
+        <span class="tooltip">Messenger</span>
+      </button>
+      <button class="social-btn copy" data-tooltip="Copy Link" id="copyBtn">
+        <i class="fas fa-link"></i>
+        <span class="tooltip">Copy Link</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
